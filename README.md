@@ -24,12 +24,7 @@
 Открываем CMD и вставляем эту команду. Вместо `${Путь к игре}` требуется вставить путь до игры.
 
 ```
-git clone https://github.com/killerup12/mode_bundle.git C:\Temp\mode_bundle && (
-    xcopy /E /I C:\Temp\mode_bundle\config "${Путь к игре}\BepInEx" &&
-    xcopy /E /I C:\Temp\mode_bundle\core "${Путь к игре}\BepInEx" &&
-    xcopy /E /I C:\Temp\mode_bundle\patchers "${Путь к игре}\BepInEx" &&
-    xcopy /E /I C:\Temp\mode_bundle\plugins "${Путь к игре}\BepInEx"
-) && rmdir /S /Q C:\Temp\mode_bundle
+set "game_path=${Путь к игре}" && (git clone https://github.com/killerup12/mode_bundle.git C:\Temp\mode_bundle && for /D %%d in (config core patchers plugins) do xcopy /E /I C:\Temp\mode_bundle\%%d "%game_path%\BepInEx" && rmdir /S /Q C:\Temp\mode_bundle)
 ```
 
 #### Для MacOS
@@ -37,12 +32,7 @@ git clone https://github.com/killerup12/mode_bundle.git C:\Temp\mode_bundle && (
 Открываем Terminal и вставляем эту команду. Вместо `${Путь к игре}` требуется вставить путь до игры.
 
 ```
-git clone https://github.com/killerup12/mode_bundle.git /tmp/mode_bundle && (
-    cp -R /tmp/mode_bundle/config "${Путь к игре}/BepInEx" &&
-    cp -R /tmp/mode_bundle/core "${Путь к игре}/BepInEx" &&
-    cp -R /tmp/mode_bundle/patchers "${Путь к игре}/BepInEx" &&
-    cp -R /tmp/mode_bundle/plugins "${Путь к игре}/BepInEx"
-) && rm -rf /tmp/mode_bundle
+export game_path="${Путь к игре}" && git clone https://github.com/killerup12/mode_bundle.git /tmp/mode_bundle && (for dir in config core patchers plugins; do cp -R /tmp/mode_bundle/$dir "$game_path/BepInEx"; done ) && rm -rf /tmp/mode_bundle
 ```
 
 ### Без использования Git
