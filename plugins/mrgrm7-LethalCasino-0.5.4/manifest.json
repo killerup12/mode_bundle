@@ -1,0 +1,9 @@
+{
+  "name": "LethalCasino",
+  "version_number": "0.5.4",
+  "website_url": "",
+  "description": "The Company has invested in a new vertical, gambling! Gamble your scrap at the Casino for a chance to multiply your earnings! Did you know 90% of gamblers quit right before they hit it big? Includes slot machines, roulette, and more.",
+  "dependencies": [
+      "BepInEx-BepInExPack-5.4.2100"
+  ]
+}
