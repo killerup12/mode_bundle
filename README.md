@@ -24,15 +24,17 @@
 Открываем CMD и вставляем эту команду. Вместо `${Путь к игре}` требуется вставить путь до игры.
 
 ```
-set "game_path=${Путь к игре}" && (git clone https://github.com/killerup12/mode_bundle.git C:\Temp\mode_bundle && for /D %d in (config core patchers plugins) do xcopy /E /I C:\Temp\mode_bundle\%d "%game_path%\BepInEx" && rmdir /S /Q C:\Temp\mode_bundle)
+set "game_path=${Путь к игре}" && (git clone https://github.com/killerup12/mode_bundle.git C:\Temp\mode_bundle && for /D %d in (config core patchers plugins) do xcopy /E /I C:\Temp\mode_bundle\%d "%game_path%\BepInEx\%d") && rmdir /S /Q C:\Temp\mode_bundle
 ```
+
+del /Q %game_path/%d && (for /D %i in ("C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\config\*") do rmdir /S /Q "%i") && (for /D %d in (config core patchers plugins) do xcopy /E /I C:\Temp\mode_bundle\%d "C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\%d")
 
 #### Для MacOS
 
 Открываем Terminal и вставляем эту команду. Вместо `${Путь к игре}` требуется вставить путь до игры.
 
 ```
-export game_path="${Путь к игре}" && git clone https://github.com/killerup12/mode_bundle.git /tmp/mode_bundle && (for dir in config core patchers plugins; do cp -R /tmp/mode_bundle/$dir "$game_path/BepInEx"; done ) && rm -rf /tmp/mode_bundle
+export game_path="${Путь к игре}" && git clone https://github.com/killerup12/mode_bundle.git /tmp/mode_bundle && (for dir in config core patchers plugins; do cp -R /tmp/mode_bundle/$dir "$game_path/BepInEx"; done) && rm -rf /tmp/mode_bundle
 ```
 
 ### Без использования Git
@@ -65,7 +67,6 @@ export game_path="${Путь к игре}" && git clone https://github.com/kille
 7. [LethalConfig](https://thunderstore.io/c/lethal-company/p/AinaVT/LethalConfig/)
 8. [FastSwitchPlayerViewInRadar](https://thunderstore.io/c/lethal-company/p/kRYstall9/FastSwitchPlayerViewInRadar/)
 9. [Immersive Visor](https://thunderstore.io/c/lethal-company/p/Woecust/Immersive_Visor/)
-10. [LETHALRESONANCE](https://thunderstore.io/c/lethal-company/p/LethalResonance/LETHALRESONANCE/)
 
 Вспомогательные моды:
 
@@ -81,7 +82,6 @@ export game_path="${Путь к игре}" && git clone https://github.com/kille
 10. [ReservedItemSlotCore](https://thunderstore.io/c/lethal-company/p/FlipMods/ReservedItemSlotCore/)
 11. [loaforcsSoundAPI](https://thunderstore.io/c/lethal-company/p/loaforc/loaforcsSoundAPI/)
 12. [UniTask](https://thunderstore.io/c/lethal-company/p/Bobbie/UniTask/)
-13. [EnemySoundFixes](https://thunderstore.io/c/lethal-company/p/ButteryStancakes/EnemySoundFixes/)
 
 ---
 
