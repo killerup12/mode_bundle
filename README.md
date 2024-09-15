@@ -24,7 +24,7 @@
 Открываем CMD и вставляем эту команду. Вместо `${Путь к игре}` требуется вставить путь до игры.
 
 ```
-set "game_path=${Путь к игре}" && (git clone https://github.com/killerup12/mode_bundle.git C:\Temp\mode_bundle && for /D %%d in (config core patchers plugins) do xcopy /E /I C:\Temp\mode_bundle\%%d "%game_path%\BepInEx" && rmdir /S /Q C:\Temp\mode_bundle)
+set "game_path=${Путь к игре}" && (git clone https://github.com/killerup12/mode_bundle.git C:\Temp\mode_bundle && for /D %d in (config core patchers plugins) do xcopy /E /I C:\Temp\mode_bundle\%d "%game_path%\BepInEx" && rmdir /S /Q C:\Temp\mode_bundle)
 ```
 
 #### Для MacOS
