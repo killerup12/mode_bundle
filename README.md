@@ -24,7 +24,12 @@
 Открываем CMD и вставляем эту команду. Вместо `${Путь к игре}` требуется вставить путь до игры.
 
 ```
-git clone https://github.com/killerup12/mode_bundle.git C:\Temp\mode_bundle && xcopy /E /I C:\Temp\mode_bundle\* "${Путь к игре}\BepInEx\" && rmdir /S /Q C:\Temp\mode_bundle
+git clone https://github.com/killerup12/mode_bundle.git C:\Temp\mode_bundle && (
+    xcopy /E /I C:\Temp\mode_bundle\config "${Путь к игре}\BepInEx" &&
+    xcopy /E /I C:\Temp\mode_bundle\core "${Путь к игре}\BepInEx" &&
+    xcopy /E /I C:\Temp\mode_bundle\patchers "${Путь к игре}\BepInEx" &&
+    xcopy /E /I C:\Temp\mode_bundle\plugins "${Путь к игре}\BepInEx"
+) && rmdir /S /Q C:\Temp\mode_bundle
 ```
 
 #### Для MacOS
@@ -32,16 +37,22 @@ git clone https://github.com/killerup12/mode_bundle.git C:\Temp\mode_bundle && x
 Открываем Terminal и вставляем эту команду. Вместо `${Путь к игре}` требуется вставить путь до игры.
 
 ```
-git clone https://github.com/killerup12/mode_bundle.git /tmp/mode_bundle && cp -R /tmp/mode_bundle/* ${Путь к игре}\BepInEx && rm -rf /tmp/mode_bundle
+git clone https://github.com/killerup12/mode_bundle.git /tmp/mode_bundle && (
+    cp -R /tmp/mode_bundle/config "${Путь к игре}/BepInEx" &&
+    cp -R /tmp/mode_bundle/core "${Путь к игре}/BepInEx" &&
+    cp -R /tmp/mode_bundle/patchers "${Путь к игре}/BepInEx" &&
+    cp -R /tmp/mode_bundle/plugins "${Путь к игре}/BepInEx"
+) && rm -rf /tmp/mode_bundle
 ```
 
 ### Без использования Git
 
 Нажмите в правом верхнем углу кнопку
 ![1726398438879](images/README/1726398438879.png)
+
 В выпадающем списек выбираем `Download ZIP`
 ![1726398525856](images/README/1726398525856.png)
-Распаковываем архив и перекивыем содержимое в папку `BepInEx`, которая находится в директории игры.
+Распаковываем архив и перекивыем папки `config`, `core`, `patchers` и `plugins` в папку `BepInEx`, которая находится в директории игры.
 
 # Правила добавления новых модов в сборку
 
