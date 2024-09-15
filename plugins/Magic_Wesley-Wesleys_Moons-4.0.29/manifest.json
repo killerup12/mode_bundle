@@ -1,0 +1,14 @@
+{
+    "name": "Wesleys_Moons",
+    "version_number": "4.0.29",
+    "website_url": "",
+    "description": "All of my moons in one bundle.",
+    "dependencies": [
+        "IAmBatby-LethalLevelLoader-1.2.2",
+        "IAmBatby-LethalToolbox-1.0.2",
+        "BepInEx-BepInExPack-5.4.2100",
+        "AudioKnight-StarlancerAIFix-3.6.0",
+        "Hardy-LCMaxSoundsFix-1.1.0",
+        "DiFFoZ-CompanyCruiserFix-1.0.5"
+    ]
+}
