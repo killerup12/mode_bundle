@@ -1,0 +1,2 @@
+*.lethalbundle filter=lfs diff=lfs merge=lfs -text
+plugins/mrgrm7-LethalCasino-0.5.4/lethalcasinoassets filter=lfs diff=lfs merge=lfs -text

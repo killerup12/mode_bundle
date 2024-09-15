@@ -1,0 +1,33 @@
+{
+"condition": {
+        "type": "config",
+        "config": "EnabledSounds:jester"
+    },
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": [
+                "VoiceAudio:Scream1",
+                "JesterEnemy:Scream1"
+            ],
+            "sounds": [
+                {
+                    "sound": "jester/Scream1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "PufferEnemy:Stomp",
+                "CreatureSFX:Stomp"
+            ],
+            "sounds": [
+                {
+                    "sound": "jester/Stomp.ogg"
+                }
+            ]
+        }
+    ]
+}

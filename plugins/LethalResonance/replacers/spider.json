@@ -1,0 +1,51 @@
+{
+"condition": {
+        "type": "config",
+        "config": "EnabledSounds:spider"
+    },
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "SandSpider:SpiderAttack",
+            "sounds": [
+                {
+                    "sound": "spider/SpiderAttack.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "SandSpider:SpiderDie",
+            "sounds": [
+                {
+                    "sound": "spider/SpiderDie.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "SandSpider:SpiderHit",
+            "sounds": [
+                {
+                    "sound": "spider/SpiderHit.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "SandSpider:SpiderSpooled",
+            "sounds": [
+                {
+                    "sound": "spider/SpiderSpooled.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "SandSpider:StunSpider",
+            "sounds": [
+                {
+                    "sound": "spider/StunSpider.ogg"
+                }
+            ]
+        }
+    ]
+}

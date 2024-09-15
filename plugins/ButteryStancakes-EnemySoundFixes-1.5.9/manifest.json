@@ -1,0 +1,9 @@
+{
+    "name": "EnemySoundFixes",
+    "version_number": "1.5.9",
+	"website_url": "https://github.com/ButteryStancakes/EnemySoundFixes",
+    "description": "Fixes numerous issues with missing sound effects, or SFX playing when they shouldn't.",
+    "dependencies": [
+		"BepInEx-BepInExPack-5.4.2100"
+	]
+}

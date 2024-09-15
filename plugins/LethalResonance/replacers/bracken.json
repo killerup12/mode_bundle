@@ -1,0 +1,127 @@
+{
+"condition": {
+        "type": "config",
+        "config": "EnabledSounds:bracken"
+    },
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": [
+				"AngerVoice:Angered",
+                "Flowerman:Angered",
+                "AngerVoiceAudio:Angered"
+            ],
+            "sounds": [
+                {
+                    "sound": "bracken/Angered_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "bracken/Angered_2.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "bracken/Angered_3.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+                "Flowerman:CrackNeck",
+                "NeckCrackAudio:CrackNeck"
+            ],
+            "sounds": [
+                {
+                    "sound": "bracken/CrackNeckPS.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "Flowerman:Found1",
+            "sounds": [
+                {
+                    "sound": "bracken/Found1_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "bracken/Found1_2.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "bracken/Found1_3.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "bracken/Found1_4.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "Flowerman:StunFlowerman",
+            "sounds": [
+                {
+                    "sound": "bracken/StunFlowerman.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "Flowerman:Step1",
+                "Flowerman:Step2",
+                "Flowerman:Step3",
+                "Flowerman:Step4",
+            ],
+            "sounds": [
+                {
+                    "sound": "bracken/BrackenStepV2_1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "bracken/BrackenStepV2_2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "bracken/BrackenStepV2_3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "bracken/BrackenStepV2_4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "bracken/BrackenStepV2_5.ogg",
+					"weight": 1
+                },
+            ]
+        }
+    ]
+}

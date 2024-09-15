@@ -1,0 +1,433 @@
+{
+"condition": {
+        "type": "config",
+        "config": "EnabledSounds:ambience_inside"
+    },
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "AmbienceSource:MetalClank1",
+            "sounds": [
+                {
+                    "sound": "facility/MetalClank1.ogg",
+					"weight": 5
+                },
+                {
+                    "sound": "ambience_inside/Windblown/AmbienceFactoryDiagetic.ogg",
+					"condition": {
+					"type": "LethalCompany:dungeon_name",
+					"value": "Level1Flow"
+					},
+					"weight": 1
+                },
+            ]
+        },
+        {
+            "matches": [
+			"AmbienceSource:Creak1",
+			"AmbienceSource:Creak2",
+			"AmbienceSource:Creak3",
+			"AmbienceSource:Creak4",
+			"AmbienceSource:Creak5",
+			"AmbienceSource:Creak6",
+			"AmbienceSource:Creak7",
+			"AmbienceSource:Creak8",
+			"AmbienceSource:Creak9",
+			],
+            "sounds": [
+                {
+                    "sound": "ambience_inside/ReworkCreak1.ogg",
+					"weight": 4
+                },
+                {
+                    "sound": "ambience_inside/ReworkCreak2.ogg",
+					"weight": 4
+                },
+                {
+                    "sound": "ambience_inside/ReworkCreak3.ogg",
+					"weight": 4
+                },
+                {
+                    "sound": "ambience_inside/ReworkCreak4.ogg",
+					"weight": 4
+                },
+                {
+                    "sound": "ambience_inside/ReworkCreak5.ogg",
+					"weight": 4
+                },
+                {
+                    "sound": "ambience_inside/ReworkCreak6.ogg",
+					"weight": 4
+                },
+                {
+                    "sound": "ambience_inside/ReworkCreak8.ogg",
+					"weight": 4
+                },
+                {
+                    "sound": "ambience_inside/Windblown/AmbienceMansionLong1.ogg",
+					"condition": {
+					"type": "LethalCompany:dungeon_name",
+					"value": "Level2Flow"
+					},
+					"weight": 1
+                },
+                {
+                    "sound": "ambience_inside/Windblown/AmbienceMansionLong2.ogg",
+					"condition": {
+					"type": "LethalCompany:dungeon_name",
+					"value": "Level2Flow"
+					},
+					"weight": 1
+                },
+                {
+                    "sound": "ambience_inside/Windblown/AmbienceMansionLong3.ogg",
+					"condition": {
+					"type": "LethalCompany:dungeon_name",
+					"value": "Level2Flow"
+					},
+					"weight": 1
+                },
+                {
+                    "sound": "ambience_inside/Windblown/AmbienceMansionLong4.ogg",
+					"condition": {
+					"type": "LethalCompany:dungeon_name",
+					"value": "Level2Flow"
+					},
+					"weight": 1
+                },
+            ]
+        },
+        {
+            "matches": "AmbienceSourceNonDiagetic:DeepBass",
+            "sounds": [
+                {
+                    "sound": "ambience_inside/ReworkDeepBass.ogg",
+                    "weight": 14
+                },
+                {
+                    "sound": "ambience_inside/Windblown/AmbienceMansionRareDiagetic.ogg",
+					"condition": {
+					"type": "LethalCompany:dungeon_name",
+					"value": "Level2Flow"
+					},
+					"weight": 1
+                },
+                {
+                    "sound": "ambience_inside/Windblown/AmbienceMansionRareNonDiagetic.ogg",
+					"condition": {
+					"type": "LethalCompany:dungeon_name",
+					"value": "Level2Flow"
+					},
+					"weight": 1
+                },
+                {
+                    "sound": "ambience_inside/Windblown/AmbienceFactoryRare1.ogg",
+					"condition": {
+					"type": "LethalCompany:dungeon_name",
+					"value": "Level1Flow"
+					},
+					"weight": 1
+                },
+                {
+                    "sound": "ambience_inside/Windblown/AmbienceFactoryRare3.ogg",
+					"condition": {
+					"type": "LethalCompany:dungeon_name",
+					"value": "Level1Flow"
+					},
+					"weight": 1
+                },
+            ]
+        },
+        {
+            "matches": [
+			"AmbienceSourceNonDiagetic:Droning1",
+			"AmbienceSourceNonDiagetic:Droning2",
+			],
+            "sounds": [
+                {
+                    "sound": "ambience_inside/ReworkDroning1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/ReworkDroning2.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/ReworkDroning3.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/ReworkDroning4.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/ReworkDroning5.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/ReworkDroning6.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/ReworkDroning7.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                },
+            ]
+        },
+        {
+            "matches": [
+			"AmbienceSourceNonDiagetic:GhostlySynth",
+			"AmbienceSourceNonDiagetic:GhostlySynth2",
+			],
+            "sounds": [
+                {
+                    "sound": "ambience_inside/ReworkGhostlySynth1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/ReworkGhostlySynth2.ogg",
+                    "weight": 1
+                },
+            ]
+        },
+        {
+            "matches": [
+			"AmbienceSource:LoudCreak1",
+			"AmbienceSource:LoudCreak2",
+			"AmbienceSource:LoudCreak3",
+			],
+            "sounds": [
+                {
+                    "sound": "ambience_inside/ReworkLoudCreak1.ogg",
+                    "weight": 2
+                },
+                {
+                    "sound": "ambience_inside/ReworkLoudCreak2.ogg",
+                    "weight": 2
+                },
+                {
+                    "sound": "ambience_inside/ReworkLoudCreak3.ogg",
+                    "weight": 2
+                },
+                {
+                    "sound": "ambience_inside/Windblown/AmbienceMansionShort1.ogg",
+					"condition": {
+					"type": "LethalCompany:dungeon_name",
+					"value": "Level2Flow"
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/Windblown/AmbienceMansionShort2.ogg",
+					"condition": {
+					"type": "LethalCompany:dungeon_name",
+					"value": "Level2Flow"
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/Windblown/AmbienceMansionShort3.ogg",
+					"condition": {
+					"type": "LethalCompany:dungeon_name",
+					"value": "Level2Flow"
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/Windblown/AmbienceMansionShort4.ogg",
+					"condition": {
+					"type": "LethalCompany:dungeon_name",
+					"value": "Level2Flow"
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/Windblown/AmbienceMansionShort5.ogg",
+					"condition": {
+					"type": "LethalCompany:dungeon_name",
+					"value": "Level2Flow"
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/Windblown/AmbienceMansionShort6.ogg",
+					"condition": {
+					"type": "LethalCompany:dungeon_name",
+					"value": "Level2Flow"
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/Windblown/AmbienceMansionShort7.ogg",
+					"condition": {
+					"type": "LethalCompany:dungeon_name",
+					"value": "Level2Flow"
+					},
+                    "weight": 1
+                },
+            ]
+        },
+        {
+            "matches": [
+			"AmbienceSource:Random1",
+			"AmbienceSource:Random2",
+			],
+            "sounds": [
+                {
+                    "sound": "ambience_inside/ReworkRandom1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/ReworkRandom2.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/ReworkRandom3.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/ReworkRandom4.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/ReworkRandom5.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/ReworkRandom6.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/ReworkRandom7.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/ReworkRandom8.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/ReworkRandom10.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/ReworkRandom11.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/ReworkRandom12.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/ReworkRandom13.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/ReworkRandom14.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                },
+            ]
+        },
+        {
+            "matches": [
+			"AmbienceSource:StrangeNoise1",
+			"AmbienceSource:StrangeNoise2",
+			"AmbienceSource:StrangeNoise3",
+			"AmbienceSource:StrangeNoise4",
+			],
+            "sounds": [
+                {
+                    "sound": "ambience_inside/ReworkStrangeNoise1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/ReworkStrangeNoise2.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/ReworkStrangeNoise3.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/ReworkStrangeNoise4.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "ambience_inside/StrangeNoise5.ogg",
+                    "weight": 1
+                },
+            ]
+        }
+    ]
+}

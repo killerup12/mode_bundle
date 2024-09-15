@@ -1,0 +1,388 @@
+{
+"condition": {
+        "type": "config",
+        "config": "EnabledSounds:facility"
+    },
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "UIAudio:AlertHUD",
+            "sounds": [
+                {
+                    "sound": "player/ApparatusAlarmHUDOutside.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "BreakerBox:BreakerBoxClose",
+			"condition": {
+				"type": "config",
+				"config": "A_Options:Performance_Mode_Extras",
+				"value": false
+			},
+            "sounds": [
+                {
+                    "sound": "breaker_box/BreakerBoxClose.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "BreakerBox:BreakerBoxHum",
+                "BreakerBoxHum:BreakerBoxHum"
+            ],
+			"condition": {
+				"type": "config",
+				"config": "A_Options:Performance_Mode_Extras",
+				"value": false
+			},
+            "sounds": [
+                {
+                    "sound": "breaker_box/BreakerBoxHum.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "BreakerBox:BreakerBoxOpen",
+			"condition": {
+				"type": "config",
+				"config": "A_Options:Performance_Mode_Extras",
+				"value": false
+			},
+            "sounds": [
+                {
+                    "sound": "breaker_box/BreakerBoxOpen.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "EntranceTeleportA:MetalDoorShut1",
+                "EntranceTeleportA:MetalDoorShut2",
+                "EntranceTeleportA:MetalDoorShut1 1",
+            ],
+	        "condition": {
+            "type": "config",
+            "config": "EnabledSounds:main_doors",
+            "value": true
+	        },
+            "sounds": [
+                {
+                    "sound": "main_doors/MetalDoorShut1_01.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "main_doors/MetalDoorShut2_01.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+                "EntranceTeleportB:MetalDoorShut1",
+                "EntranceTeleportB:MetalDoorShut2",
+                "EntranceTeleportB:MetalDoorShut1 1",
+                "EntranceTeleportC:MetalDoorShut1",
+                "EntranceTeleportC:MetalDoorShut2",
+                "EntranceTeleportC:MetalDoorShut1 1",
+                "EntranceTeleportD:MetalDoorShut1",
+                "EntranceTeleportD:MetalDoorShut2",
+                "EntranceTeleportD:MetalDoorShut1 1",
+                "EntranceTeleportE:MetalDoorShut1",
+                "EntranceTeleportE:MetalDoorShut2",
+                "EntranceTeleportE:MetalDoorShut1 1",
+                "EntranceTeleportF:MetalDoorShut1",
+                "EntranceTeleportF:MetalDoorShut2",
+                "EntranceTeleportF:MetalDoorShut1 1",
+            ],
+	        "condition": {
+            "type": "config",
+            "config": "EnabledSounds:main_doors",
+            "value": true
+	        },
+            "sounds": [
+                {
+                    "sound": "main_doors/MetalDoorShut11_01.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			"*:DoorClose1",
+			"*:DoorClose2",
+			],
+			"condition": {
+			"type": "config",
+			"config": "EnabledSounds:dungeon_doors"
+			},
+            "sounds": [
+                {
+                    "sound": "facility/FacilityDoorOpenV2_1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "facility/FacilityDoorOpenV2_2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "facility/FacilityDoorOpenV2_3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+                "*:DoorOpen1",
+                "*:DoorOpen2",
+            ],
+			"condition": {
+			"type": "config",
+			"config": "EnabledSounds:dungeon_doors"
+			},
+            "sounds": [
+                {
+                    "sound": "facility/FacilityDoorCloseV2_1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "facility/FacilityDoorCloseV2_2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "facility/FacilityDoorCloseV2_3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+                "*:CloseDoorWooden1",
+                "*:CloseDoorWooden2",
+                "*:CloseDoorWooden3",
+            ],
+			"condition": {
+			"type": "config",
+			"config": "EnabledSounds:dungeon_doors"
+			},
+            "sounds": [
+                {
+                    "sound": "facility/WoodenDoorCloseV4_1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "facility/WoodenDoorCloseV4_2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "facility/WoodenDoorCloseV4_3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+                "*:OpenDoorWooden1",
+                "*:OpenDoorWooden2",
+                "*:OpenDoorWooden3",
+            ],
+			"condition": {
+			"type": "config",
+			"config": "EnabledSounds:dungeon_doors"
+			},
+            "sounds": [
+                {
+                    "sound": "facility/WoodenDoorOpenV2_1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "facility/WoodenDoorOpenV2_2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "facility/WoodenDoorOpenV2_3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+                "*:CloseMineDoor1",
+                "*:CloseMineDoor2",
+            ],
+			"condition": {
+			"type": "config",
+			"config": "EnabledSounds:dungeon_doors"
+			},
+            "sounds": [
+                {
+                    "sound": "facility/MineshaftDoorCloseV3_1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "facility/MineshaftDoorCloseV3_2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "facility/MineshaftDoorCloseV3_3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+                "*:OpenMineDoor1",
+                "*:OpenMineDoor2",
+            ],
+			"condition": {
+			"type": "config",
+			"config": "EnabledSounds:dungeon_doors"
+			},
+            "sounds": [
+                {
+                    "sound": "facility/MineshaftDoorOpenV4_1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "facility/MineshaftDoorOpenV4_2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "facility/MineshaftDoorOpenV4_3.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "AmbienceSource:FireAlarm",
+            "sounds": [
+                {
+                    "sound": "facility/FireAlarm.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:LargeFanRoom",
+            "sounds": [
+                {
+                    "sound": "facility/LargeFanRoom.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:LightFlicker",
+            "sounds": [
+                {
+                    "sound": "facility/LightFlickerOld.ogg",
+					"condition": {
+					"type": "config",
+					"config": "EnabledSounds:chaos_flicker",
+					"value": true
+					},
+					"weight": 2
+                },
+                {
+                    "sound": "facility/LightFlicker3.ogg",
+					"condition": {
+					"type": "config",
+					"config": "EnabledSounds:chaos_flicker",
+					"value": false
+					},
+					"weight": 5
+                },
+                {
+                    "sound": "facility/LightFlicker3.ogg",
+					"condition": {
+					"type": "config",
+					"config": "EnabledSounds:chaos_flicker",
+					"value": false
+					},
+					"weight": 5
+                },
+                {
+                    "sound": "facility/LightFlicker4.ogg",
+					"condition": {
+					"type": "config",
+					"config": "EnabledSounds:chaos_flicker",
+					"value": false
+					},
+					"weight": 5
+                },
+                {
+                    "sound": "facility/LightFlicker5.ogg",
+					"condition": {
+					"type": "config",
+					"config": "EnabledSounds:chaos_flicker",
+					"value": false
+					},
+					"weight": 5
+                },
+                {
+                    "sound": "facility/FlickeringHeavy1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "facility/FlickeringHeavy2.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "*:LightOn",
+            "sounds": [
+                {
+                    "sound": "facility/LightsOn.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "*:LightOff",
+            "sounds": [
+                {
+                    "sound": "facility/LightsOff.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "SteamValve:PipeValveTwist",
+			"condition": {
+				"type": "config",
+				"config": "A_Options:Performance_Mode_Extras",
+				"value": false
+			},
+            "sounds": [
+                {
+                    "sound": "facility/PipeValveTwist.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "VentEntrance:VentCrawl1",
+            "sounds": [
+                {
+                    "sound": "facility/VentCrawl1_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "facility/VentCrawl1_2.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "facility/VentCrawl1_3.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

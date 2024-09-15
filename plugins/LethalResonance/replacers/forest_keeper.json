@@ -1,0 +1,161 @@
+{
+"condition": {
+        "type": "config",
+        "config": "EnabledSounds:forest_keeper"
+    },
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": [
+                "FarWideSFX:DistantRumble1",
+                "ForestGiant:DistantRumble1"
+            ],
+            "sounds": [
+                {
+                    "sound": "forest_keeper/DistantRumble1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "FarWideSFX:DistantRumble2",
+                "ForestGiant:DistantRumble2"
+            ],
+            "sounds": [
+                {
+                    "sound": "forest_keeper/DistantRumble2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "FarWideSFX:DistantRumble3",
+                "ForestGiant:DistantRumble3"
+            ],
+            "sounds": [
+                {
+                    "sound": "forest_keeper/DistantRumble3.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "ForestGiant:FGiantEatPlayerSFX",
+                "CloseWideSFX:FGiantEatPlayerSFX"
+            ],
+            "sounds": [
+                {
+                    "sound": "forest_keeper/FGiantEatPlayerSFX_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "forest_keeper/FGiantEatPlayerSFX_2.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "forest_keeper/FGiantEatPlayerSFX_3.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+                "CloseWideSFX:GiantStomp1",
+                "ForestGiant:GiantStomp1"
+            ],
+            "sounds": [
+                {
+                    "sound": "forest_keeper/GiantStomp1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "CloseWideSFX:GiantStomp2",
+                "ForestGiant:GiantStomp2"
+            ],
+            "sounds": [
+                {
+                    "sound": "forest_keeper/GiantStomp2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "CloseWideSFX:GiantStomp3",
+                "ForestGiant:GiantStomp3"
+            ],
+            "sounds": [
+                {
+                    "sound": "forest_keeper/GiantStomp3.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "CloseWideSFX:GiantStomp4",
+                "ForestGiant:GiantStomp4"
+            ],
+            "sounds": [
+                {
+                    "sound": "forest_keeper/GiantStomp4.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+                "CloseWideSFX:GiantStomp5",
+                "ForestGiant:GiantStomp5"
+            ],
+            "sounds": [
+                {
+                    "sound": "forest_keeper/GiantStomp5.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "ForestGiant:StunGiant",
+			"condition": {
+				"type": "config",
+				"config": "A_Options:Performance_Mode_Extras",
+				"value": false
+			},
+            "sounds": [
+                {
+                    "sound": "forest_keeper/StunGiant_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "forest_keeper/StunGiant_2.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "forest_keeper/StunGiant_3.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

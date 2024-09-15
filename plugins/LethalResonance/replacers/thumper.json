@@ -1,0 +1,249 @@
+{
+"condition": {
+        "type": "config",
+        "config": "EnabledSounds:thumper"
+    },
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "VoiceSFX:BitePlayer",
+            "sounds": [
+                {
+                    "sound": "thumper/BitePlayer_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "thumper/BitePlayer_2.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "thumper/BitePlayer_3.ogg",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "Crawler:CrawlerDie",
+            "sounds": [
+                {
+                    "sound": "thumper/CrawlerDie.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "Crawler:HitCrawler",
+            "sounds": [
+                {
+                    "sound": "thumper/HitCrawler_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "thumper/HitCrawler_2.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "thumper/HitCrawler_3.ogg",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "Crawler:HitCrawler2",
+            "sounds": [
+                {
+                    "sound": "thumper/HitCrawler2_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "thumper/HitCrawler2_2.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "thumper/HitCrawler2_3.ogg",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+                "VoiceSFX:LongRoar1",
+                "Crawler:LongRoar1"
+            ],
+            "sounds": [
+                {
+                    "sound": "thumper/LongRoar1_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "thumper/LongRoar1_2.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "thumper/LongRoar1_3.ogg",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+                "VoiceSFX:LongRoar2",
+                "Crawler:LongRoar2"
+            ],
+            "sounds": [
+                {
+                    "sound": "thumper/LongRoar2_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "thumper/LongRoar2_2.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "thumper/LongRoar2_3.ogg",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+                "Crawler:LongRoar3",
+                "VoiceSFX:LongRoar3"
+            ],
+            "sounds": [
+                {
+                    "sound": "thumper/LongRoar3_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "thumper/LongRoar3_2.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "thumper/LongRoar3_3.ogg",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "Crawler:Ram1",
+            "sounds": [
+                {
+                    "sound": "thumper/Ram1_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "thumper/Ram1_2.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "thumper/Ram1_3.ogg",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "Crawler:Ram2",
+            "sounds": [
+                {
+                    "sound": "thumper/Ram2_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "thumper/Ram2_2.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "thumper/Ram2_3.ogg",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "Crawler:Ram3",
+            "sounds": [
+                {
+                    "sound": "thumper/Ram3_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "thumper/Ram3_2.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "thumper/Ram3_3.ogg",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "Crawler:Stomp1",
+            "sounds": [
+                {
+                    "sound": "thumper/Stomp1_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "thumper/Stomp1_2.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "thumper/Stomp1_3.ogg",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "Crawler:Stomp2",
+            "sounds": [
+                {
+                    "sound": "thumper/Stomp2_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "thumper/Stomp2_2.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "thumper/Stomp2_3.ogg",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "Crawler:Stomp3",
+            "sounds": [
+                {
+                    "sound": "thumper/Stomp3_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "thumper/Stomp3_2.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "thumper/Stomp3_3.ogg",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "Crawler:StunCrawler",
+            "sounds": [
+                {
+                    "sound": "thumper/StunCrawler_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "thumper/StunCrawler_2.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "thumper/StunCrawler_3.ogg",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "name": "ReservedFlashlightSlot",
+    "version_number": "2.0.8",
+    "website_url": "https://github.com/cmooref17/ReservedItemSlotMods",
+    "description": "Gives a dedicated Flashlight slot on the right side of your screen that can optionally be purchased! Can be toggled with [F] to activate the Flashlight at anytime.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100",
+        "FlipMods-ReservedItemSlotCore-2.0.8"
+    ]
+}

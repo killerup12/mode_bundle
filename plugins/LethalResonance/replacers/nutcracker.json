@@ -1,0 +1,477 @@
+{
+"condition": {
+        "type": "config",
+        "config": "EnabledSounds:nutcracker"
+    },
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": [
+                "LongRangeSFX:AlertedSFX",
+                "NutcrackerEnemy:AlertedSFX"
+            ],
+            "sounds": [
+                {
+                    "sound": "nutcracker/AlertedSFX_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "nutcracker/AlertedSFX_2.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "nutcracker/AlertedSFX_3.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+                "CreatureSFX:BootStomp1",
+                "NutcrackerEnemy:BootStomp1"
+            ],
+            "sounds": [
+                {
+                    "sound": "nutcracker/BootStomp1_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "nutcracker/BootStomp1_2.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "nutcracker/BootStomp1_3.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "nutcracker/BootStomp1_4.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+                "CreatureSFX:BootStomp2",
+                "NutcrackerEnemy:BootStomp2"
+            ],
+            "sounds": [
+                {
+                    "sound": "nutcracker/BootStomp2_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "nutcracker/BootStomp2_2.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "nutcracker/BootStomp2_3.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+                "CreatureSFX:BootStomp3",
+                "NutcrackerEnemy:BootStomp3"
+            ],
+            "sounds": [
+                {
+                    "sound": "nutcracker/BootStomp3_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "nutcracker/BootStomp3_2.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "nutcracker/BootStomp3_3.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+                "LongRangeSFX:HeadGoUp",
+                "NutcrackerEnemy:HeadGoUp"
+            ],
+            "sounds": [
+                {
+                    "sound": "nutcracker/HeadGoUp_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "nutcracker/HeadGoUp_2.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "nutcracker/HeadGoUp_3.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+                "CreatureSFX:Kick",
+                "NutcrackerEnemy:Kick"
+            ],
+            "sounds": [
+                {
+                    "sound": "nutcracker/Kick_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "nutcracker/Kick_2.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "nutcracker/Kick_3.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+                "CreatureSFX:MetalSqueak1",
+                "NutcrackerEnemy:MetalSqueak1"
+            ],
+            "sounds": [
+                {
+                    "sound": "nutcracker/MetalSqueak1_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "nutcracker/MetalSqueak1_2.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "nutcracker/MetalSqueak1_3.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+                "CreatureSFX:MetalSqueak2",
+                "NutcrackerEnemy:MetalSqueak2"
+            ],
+            "sounds": [
+                {
+                    "sound": "nutcracker/MetalSqueak2_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "nutcracker/MetalSqueak2_2.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "nutcracker/MetalSqueak2_3.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+                "CreatureSFX:MetalSqueak3",
+                "NutcrackerEnemy:MetalSqueak3"
+            ],
+            "sounds": [
+                {
+                    "sound": "nutcracker/MetalSqueak3_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "nutcracker/MetalSqueak3_2.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "nutcracker/MetalSqueak3_3.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+                "CreatureSFX:MetalSqueak4",
+                "NutcrackerEnemy:MetalSqueak4"
+            ],
+            "sounds": [
+                {
+                    "sound": "nutcracker/MetalSqueak4_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "nutcracker/MetalSqueak4_2.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "nutcracker/MetalSqueak4_3.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+                "TurnBodySFX:NutcrackerTurn",
+                "NutcrackerEnemy:NutcrackerTurn"
+            ],
+            "sounds": [
+                {
+                    "sound": "nutcracker/NutcrackerTurn_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "nutcracker/NutcrackerTurn_2.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "nutcracker/NutcrackerTurn_3.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+                "TurnBodySFX:StopTurning1",
+                "NutcrackerEnemy:StopTurning1"
+            ],
+            "sounds": [
+                {
+                    "sound": "nutcracker/StopTurning1_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "nutcracker/StopTurning1_2.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "nutcracker/StopTurning1_3.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+                "TurnBodySFX:StopTurning2",
+                "NutcrackerEnemy:StopTurning2"
+            ],
+            "sounds": [
+                {
+                    "sound": "nutcracker/StopTurning2_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "nutcracker/StopTurning2_2.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "nutcracker/StopTurning2_3.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+                "TurnBodySFX:StopTurning3",
+                "NutcrackerEnemy:StopTurning3"
+            ],
+            "sounds": [
+                {
+                    "sound": "nutcracker/StopTurning3_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "nutcracker/StopTurning3_2.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "nutcracker/StopTurning3_3.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "CreatureSFX:ShotgunReloadNutcracker",
+            "sounds": [
+                {
+                    "sound": "items/ShotgunReloadNutcracker.ogg"
+                }
+            ]
+        },
+        {
+            "matches": [
+			"NutcrackerEnemy:GunShootSFX:ShotgunBlast",
+			"NutcrackerEnemy:GunShootSFX:ShotgunBlast2",
+			],
+	        "condition": {
+            "type": "config",
+            "config": "EnabledSounds:nutcracker_shotgun",
+            "value": true
+	        },
+            "sounds": [
+                {
+                    "sound": "items/ShotgunBlast.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "items/ShotgunBlast2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "items/ShotgunBlast3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "items/ShotgunBlast4.ogg",
+					"weight": 1
+                },
+            ]
+        }
+    ]
+}

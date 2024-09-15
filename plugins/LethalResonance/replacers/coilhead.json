@@ -1,0 +1,208 @@
+{
+"condition": {
+        "type": "config",
+        "config": "EnabledSounds:coilhead"
+    },
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": [
+                "SpringMan:BareFootstep1",
+                "FoostepSFX:BareFootstep1"
+            ],
+            "sounds": [
+                {
+                    "sound": "coilhead/BareFootstep1_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "coilhead/BareFootstep1_2.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "coilhead/BareFootstep1_3.ogg",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+                "SpringMan:BareFootstep2",
+                "FoostepSFX:BareFootstep2"
+            ],
+            "sounds": [
+                {
+                    "sound": "coilhead/BareFootstep2_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "coilhead/BareFootstep2_2.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "coilhead/BareFootstep2_3.ogg",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+                "SpringMan:BareFootstep3",
+                "FoostepSFX:BareFootstep3"
+            ],
+            "sounds": [
+                {
+                    "sound": "coilhead/BareFootstep3_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "coilhead/BareFootstep3_2.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "coilhead/BareFootstep3_3.ogg",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+                "SpringMan:BareFootstep4",
+                "FoostepSFX:BareFootstep4"
+            ],
+            "sounds": [
+                {
+                    "sound": "coilhead/BareFootstep4_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "coilhead/BareFootstep4_2.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "coilhead/BareFootstep4_3.ogg",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "PlayerRagdollSpring Variant:KillPlayerSpring",
+            "sounds": [
+                {
+                    "sound": "coilhead/KillPlayerSpring_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "coilhead/KillPlayerSpring_2.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "coilhead/KillPlayerSpring_3.ogg",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+                "SpringMan:Spring1",
+                "VoiceSFX:Spring1"
+            ],
+            "sounds": [
+                {
+                    "sound": "coilhead/Spring1_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "coilhead/Spring1_2.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "coilhead/Spring1_3.ogg",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+                "SpringMan:Spring2",
+                "VoiceSFX:Spring2"
+            ],
+            "sounds": [
+                {
+                    "sound": "coilhead/Spring2_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "coilhead/Spring2_2.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "coilhead/Spring2_3.ogg",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+                "SpringMan:Spring3",
+                "VoiceSFX:Spring3"
+            ],
+            "sounds": [
+                {
+                    "sound": "coilhead/Spring3_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "coilhead/Spring3_2.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "coilhead/Spring3_3.ogg",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+                "SpringMan:SpringWobble1",
+                "VoiceSFX:SpringWobble1"
+            ],
+            "sounds": [
+                {
+                    "sound": "coilhead/SpringWobble1_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "coilhead/SpringWobble1_2.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "coilhead/SpringWobble1_3.ogg",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": [
+                "SpringMan:SpringWobble2",
+                "VoiceSFX:SpringWobble2"
+            ],
+            "sounds": [
+                {
+                    "sound": "coilhead/SpringWobble2_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "coilhead/SpringWobble2_2.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "coilhead/SpringWobble2_3.ogg",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

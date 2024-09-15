@@ -1,0 +1,17 @@
+{   
+    "condition": {
+        "type": "config",
+        "config": "EnabledSounds:diversity"
+    },
+    "update_every_frame": true,
+    "replacements": [
+		{
+			"matches": "OneShotSound:brakenScream",
+			"sounds": [
+				{
+					"sound": "Diversity/Bracken_Scream.ogg"
+				}
+			]
+		}
+    ]
+}

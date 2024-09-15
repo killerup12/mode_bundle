@@ -1,0 +1,51 @@
+{
+"condition": {
+        "type": "config",
+        "config": "EnabledSounds:baboon"
+    },
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "CreatureSFX:BaboonTakeDamage",
+            "sounds": [
+                {
+                    "sound": "baboon/BaboonTakeDamage.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CreatureSFX:BaboonStab",
+            "sounds": [
+                {
+                    "sound": "baboon/BaboonStab.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "CreatureVoice:BaboonKill",
+            "sounds": [
+                {
+                    "sound": "baboon/BaboonKill.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "AggressionSFX:BaboonEnterFight",
+            "sounds": [
+                {
+                    "sound": "baboon/BaboonEnterFight.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "BaboonHawkEnemy:KillBaboon",
+            "sounds": [
+                {
+                    "sound": "baboon/KillBaboon.ogg"
+                }
+            ]
+        }
+    ]
+}

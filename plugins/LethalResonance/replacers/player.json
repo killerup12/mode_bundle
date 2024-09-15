@@ -1,0 +1,218 @@
+{
+"condition": {
+        "type": "config",
+        "config": "EnabledSounds:player"
+    },
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "*:Scan",
+			"condition": {
+			"type": "config",
+			"config": "EnabledSounds:scanner_moroxide",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "scanner_moroxide/Scan_1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "scanner_moroxide/Scan_2.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "scanner_moroxide/Scan_3.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "scanner_moroxide/Scan_4.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "scanner_moroxide/Scan_5.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "*:Scan",
+			"condition": {
+			"type": "config",
+			"config": "EnabledSounds:scanner_pixel",
+			"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "scanner_pixel/Scan.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "scanner_pixel/Scan1.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "scanner_pixel/Scan2.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                },
+                {
+                    "sound": "scanner_pixel/Scan3.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "MovementAudio:BloodGore",
+            "sounds": [
+                {
+                    "sound": "player/BloodGore.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "WebHangerPhysics:BodyCollision1",
+			"condition": {
+				"type": "config",
+				"config": "A_Options:Performance_Mode_Extras",
+				"value": false
+			},
+            "sounds": [
+                {
+                    "sound": "player/BodyCollision1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "WebHangerPhysics:BodyCollision2",
+			"condition": {
+				"type": "config",
+				"config": "A_Options:Performance_Mode_Extras",
+				"value": false
+			},
+            "sounds": [
+                {
+                    "sound": "player/BodyCollision2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "WebHangerPhysics:BodyCollision3",
+			"condition": {
+				"type": "config",
+				"config": "A_Options:Performance_Mode_Extras",
+				"value": false
+			},
+            "sounds": [
+                {
+                    "sound": "player/BodyCollision3.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "UnderwaterAudio:BreathingUnderwater",
+            "sounds": [
+                {
+                    "sound": "player/BreathingUnderwater.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "UIAudio:CriticalInjury",
+            "sounds": [
+                {
+                    "sound": "player/CriticalInjury.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "BodyAudio:DieFromFallDamageSFX1",
+            "sounds": [
+                {
+                    "sound": "player/DieFromFallDamageSFX1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "UIAudio:GlobalNotificationSFX",
+            "sounds": [
+                {
+                    "sound": "player/GlobalNotificationSFX.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "HighAction1:HighAction1",
+			"condition": {
+				"type": "config",
+				"config": "EnabledSounds:stress",
+				"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "player/HighAction1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "HighAction2:HighAction2",
+			"condition": {
+				"type": "config",
+				"config": "EnabledSounds:stress",
+				"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "player/HighAction2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "Blob:SlimeKillPlayer",
+            "sounds": [
+                {
+                    "sound": "slime/SlimeKillPlayerV2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "LowAction:LowAction",
+			"condition": {
+				"type": "config",
+				"config": "EnabledSounds:stress",
+				"value": true
+			},
+            "sounds": [
+                {
+                    "sound": "player/LowAction.ogg"
+                }
+            ]
+        }
+    ]
+}

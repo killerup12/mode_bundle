@@ -1,0 +1,153 @@
+{
+    "condition": {
+            "type": "config",
+            "config": "EnabledSounds:old_bird"
+        },
+        "randomness": {
+            "type": "determinstic"
+        },
+    "replacements": [
+            {
+
+                "matches": "*:LRADAlarm3",
+                "sounds": [
+                    {
+                        "sound": "Old Bird/OBLRADv2.ogg"
+                    }
+                ]
+            },
+            {
+                "matches": [
+                "3DLradAudio2:LradBrainwashingSignal6",
+                "3DLradAudio2:LradBrainwashingSignal7",
+                "3DLradAudio2:LradBrainwashingSignal8"
+                ],
+                "sounds": [
+                    {
+                        "sound": "Old Bird/Lrad Brainwashing Signal6.ogg",
+                        "weight": 1
+                    },
+                    {
+                        "sound": "Old Bird/Lrad Brainwashing Signal7.ogg",
+                        "weight": 1
+                    }
+                ]
+            },
+            {
+                "matches": "*:RadMechAmbientSFX",
+                "sounds": [
+                    {
+                        "sound": "Old Bird/Rad Mech Ambient S F X.ogg"
+                    }
+                ]
+            },
+            {
+                "matches": [
+                    "*:RadMechStomp1",
+                    "*:RadMechStomp2",
+                    "*:RadMechStomp3",
+                    "*:RadMechStomp4"
+                ],
+                "sounds": [
+                    {
+                        "sound": "Old Bird/Rad Mech Stomp1_1.ogg",
+                        "weight": 1
+                    },
+                    {
+                        "sound": "Old Bird/Rad Mech Stomp1_2.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                        "weight": 1
+                    },
+                    {
+                        "sound": "Old Bird/Rad Mech Stomp1_3.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                        "weight": 1
+                    },
+                    {
+                        "sound": "Old Bird/Rad Mech Stomp2_1.ogg",
+                        "weight": 1
+                    },
+                    {
+                        "sound": "Old Bird/Rad Mech Stomp2_2.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                        "weight": 1
+                    },
+                    {
+                        "sound": "Old Bird/Rad Mech Stomp2_3.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                        "weight": 1
+                    },
+                    {
+                        "sound": "Old Bird/Rad Mech Stomp3_1.ogg",
+                        "weight": 1
+                    },
+                    {
+                        "sound": "Old Bird/Rad Mech Stomp3_2.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                        "weight": 1
+                    },
+                    {
+                        "sound": "Old Bird/Rad Mech Stomp3_3.ogg",
+					"condition": {
+						"type": "config",
+						"config": "A_Options:Performance_Mode",
+						"value": false
+					},
+                        "weight": 1
+                    }
+                ]
+            },
+            {
+                "matches": "*:RadMechWake",
+                "sounds": [
+                    {
+                        "sound": "Old Bird/OBWakeUp2.ogg"
+                    }
+                ]
+            },
+            {
+                "matches": "ThrusterFarAudio:FlyingFar",
+                "sounds": [
+                    {
+                        "sound": "Old Bird/OBFlyHigh.ogg"
+                    }
+                ]
+            },
+            {
+                "matches": "ChargeForwardSFX:ChargeForward",
+                "sounds": [
+                    {
+                        "sound": "Old Bird/OBChargeBaseline.ogg"
+                    }
+                ]
+            },
+            {
+                "matches": "LeftLegFireContainer:ThrusterCloseAudio:ShipThrusterClose",
+                "sounds": [
+                    {
+                        "sound": "Old Bird/OBRocketShoes3.ogg"
+                    }
+                ]
+            }
+        ]
+}

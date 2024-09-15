@@ -1,0 +1,9 @@
+{
+    "name": "ReservedItemSlotCore",
+    "version_number": "2.0.36",
+    "website_url": "https://github.com/cmooref17/ReservedItemSlotMods",
+    "description": "V64 Compatible! The core mod for all ReservedItemSlot mods. Adds functionality for all ReservedItemSlot mods and adds API functions!",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}

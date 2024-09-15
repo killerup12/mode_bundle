@@ -1,0 +1,135 @@
+{
+"condition": {
+        "type": "config",
+        "config": "EnabledSounds:company"
+    },
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "Trigger:Belldinger",
+			"condition": {
+				"type": "config",
+				"config": "A_Options:Performance_Mode_Extras",
+				"value": false
+			},
+            "sounds": [
+                {
+                    "sound": "company/Belldinger.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "FancyDoorMapModel:DoorShut",
+			"condition": {
+				"type": "config",
+				"config": "A_Options:Performance_Mode_Extras",
+				"value": false
+			},
+            "sounds": [
+                {
+                    "sound": "company/DoorShut.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "DeskAudio:AngerAtDesk",
+            "sounds": [
+                {
+                    "sound": "company/AngerAtDesk.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "DeskAudio:AngerAtDesk2",
+            "sounds": [
+                {
+                    "sound": "company/AngerAtDesk2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "Music:RewardGood",
+            "sounds": [
+                {
+                    "sound": "company/RewardGood.ogg"
+                }
+            ]
+        },
+        
+        {
+            "matches": "Music:RewardMid",
+            "sounds": [
+                {
+                    "sound": "company/RewardMid.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "DeskAudio:SmallHatchDoorOpen",
+			"condition": {
+				"type": "config",
+				"config": "A_Options:Performance_Mode_Extras",
+				"value": false
+			},
+            "sounds": [
+                {
+                    "sound": "company/SmallHatchDoorOpen.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "DeskAudio:TentaclesAttack",
+			"condition": {
+				"type": "config",
+				"config": "A_Options:Performance_Mode_Extras",
+				"value": false
+			},
+            "sounds": [
+                {
+                    "sound": "company/TentaclesAttack.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "DeskAudio:TakeItems1",
+			"condition": {
+				"type": "config",
+				"config": "A_Options:Performance_Mode_Extras",
+				"value": false
+			},
+            "sounds": [
+                {
+                    "sound": "company/TakeItems1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "DeskAudio:TakeItems2",
+			"condition": {
+				"type": "config",
+				"config": "A_Options:Performance_Mode_Extras",
+				"value": false
+			},
+            "sounds": [
+                {
+                    "sound": "company/TakeItems2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "DeskAudio:TakeItems3",
+			"condition": {
+				"type": "config",
+				"config": "A_Options:Performance_Mode_Extras",
+				"value": false
+			},
+            "sounds": [
+                {
+                    "sound": "company/TakeItems3.ogg"
+                }
+            ]
+        }
+    ]
+}

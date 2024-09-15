@@ -1,0 +1,76 @@
+# Enemy Sound Fixes
+Fixes numerous issues with missing sound effects, or SFX playing when they shouldn't. Using [LCMaxSoundsFix](https://thunderstore.io/c/lethal-company/p/Hardy/LCMaxSoundsFix/) in addition to this mod is *highly* recommended, but not required.
+- Brackens
+  - Fixed hit sound being interrupted by death animation
+- Snare fleas
+  - Fixed shrieking when hitting its dead body
+  - Fixed chasing "footsteps" and suffocation noises not looping
+  - Fixed footsteps continuing while dead or clinging to a player's head
+  - Fixed improperly pitched scream when dropping from the ceiling after being damaged
+- Thumper
+  - "Fixed"(?) thunder sounds playing from voice when losing track of the player
+    - Can be re-enabled in config
+- Eyeless dogs
+  - Fixed breathing sometimes playing after death
+  - Fixed breathing pitch being wrong after eating a player
+  - Fixed breathing sound sometimes overlapping (playing twice from one dog)
+  - Fixed breathing sometimes stopping completely after attacking
+  - Fixed missing hit sound effect
+  - Fixed other enemies' dead bodies playing hit sounds when dog stepped on them
+- Hoarding bugs
+  - Fixed missing death sound effect
+  - Fixed hit sound being interrupted by death animation
+- Forest Keepers
+  - Fixed stun sound effect not playing when rescuing a player
+  - Fixed "chewing" sound and blood spray playing after eating animation is interrupted
+  - Fixed missing death sound effects
+  - Fixed fire volume not fading in when first ignited by an explosion
+  - Fixed roar sound effect (when grabbing players) being cut short by bite sound effect
+  - Fixed missing hit sound effect
+- Baboon hawks
+  - Fixed screaming when hitting its dead body
+  - Fixed missing death sound effect
+  - Fixed other enemies' dead bodies playing hit sounds when baboons touched them
+  - Fixed playing attack sound when touching other enemies' dead bodies
+- Nutcrackers
+  - Fixed "marching music" playing endlessly after death if you kill it right as it fires its gun
+  - Fixed missing death sound effect
+- Mimics
+  - Fixed Comedy and Tragedy noise intervals (for laughing/crying) taking exponentially more time to occur the longer you left the game open
+    - In general, "masked" enemies as well as the actual mask items will be a lot noisier
+    - You can disable this change in the config if you don't like it
+  - Config setting (disabled by default) to adjust footstep volume/distance to match player footsteps
+- Butlers
+  - Fixed corpses still buzzing even once the mask hornets spawn out of it
+- Tulip snakes
+  - Fixed "scurry" sounds sometimes playing while not walking
+  - Scurry sounds now properly re-randomize their pitch when they play
+  - Failsafe to prevent tulip snakes from making noises after death
+  - Fixed missing hit sound effect
+- Kidnapper fox
+  - Fixed hurt sound not playing after tongue is broken
+  - Fixed hurt sound playing when attacking its dead body
+  - Fixed death sound sometimes not playing
+  - Fixed "growling" sound sometimes getting stuck when not dragging a player
+  - Fixed drooling after being killed
+  - Fixed other enemies' dead bodies playing hit sounds when fox stepped on them
+- Maneaters
+  - Fixed missing death sound effect
+  - Fixed hit sound being interrupted by death animation
+  - Fixed several sounds (footsteps, mandible clicking, etc.) still playing after death
+
+## Other
+Despite the (now outdated) name, this mod also fixes a few other sounds unrelated to enemies:
+- Players
+  - Fixed fall damage not playing its special sound effect (except when crashing the jetpack)
+  - Fixed overlapping hit sound when attacked with shovel/knife
+- Cruiser
+  - Fixed the "engine stalling" sound getting stuck if you turn the key for too long, even if you release it and turn it again
+  - Fixed the engine rev sound effect playing multiple times when turning the key in quick succession
+  - Fixed the engine rev sound effect continuing after the ignition finally starts
+  - Fixed crash sounds restarting constantly each time the Cruiser collides with something (instead of stacking with each other)
+  - Fixed tire contact audio still playing while the car is midair
+  - Fixed warning alarm playing while car is attached to the magnet (and immune to damage)
+  - Added config setting to mute Cruiser audio in orbit (engine, horn, radio, etc.)
+- Fixed the garage door on Experimentation not playing sounds when it slides closed
+- Fixed "Hey" voice when ship gets struck by lightning

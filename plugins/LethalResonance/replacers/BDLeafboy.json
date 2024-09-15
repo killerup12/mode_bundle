@@ -1,0 +1,201 @@
+{
+		"condition": {
+        "type": "config",
+        "config": "BioDiversity:LeafBoy"
+    },
+    "replacements": [
+        {
+            "matches": [
+			"LeafBoi:SFX:leafHappy1",
+			"LeafBoi:SFX:leafHappy2",
+			"LeafBoi:SFX:leafHappy3",
+			],
+            "sounds": [
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyHappy1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyHappy2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyHappy3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyHappy4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyHappy5.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyHappy6.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyHappy7.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyHappy8.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyHappy9.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyHappy10.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyHappy11.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyHappy12.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyHappy13.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyHappy14.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyHappy15.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyHappy16.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyHappy17.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyHappy18.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyHappy19.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyHappy20.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyHappy21.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyHappy22.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyHappy23.ogg",
+					"weight": 1
+                }
+            ]
+        },
+        {
+            "matches": "LeafBoi:SFX:leafScare",
+            "sounds": [
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyScare1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyScare2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyScare3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyScare4.ogg",
+					"weight": 1
+                },
+            ]
+        },
+        {
+            "matches": "LeafBoi:SFX:leafScareLow2",
+            "sounds": [
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyScareLow2_1.ogg",
+					"weight": 1
+				},
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyScareLow2_2.ogg",
+					"weight": 1
+				},
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyScareLow2_3.ogg",
+					"weight": 1
+				},
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyScareLow2_4.ogg",
+					"weight": 1
+				},
+            ]
+        },
+        {
+            "matches": "LeafBoi:SFX:leafScareLow1",
+            "sounds": [
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyScareLow1_1.ogg",
+					"weight": 1
+				},
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyScareLow1_2.ogg",
+					"weight": 1
+				},
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyScareLow1_3.ogg",
+					"weight": 1
+				},
+            ]
+        },
+		{
+            "matches": "LeafBoi:SFX:leafHit",
+            "sounds": [
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyHit1.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyHit2.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyHit3.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyHit4.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyHit5.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyHit6.ogg",
+					"weight": 1
+                },
+                {
+                    "sound": "BioDiversity/Leafboy/LeafBoyHit7.ogg",
+					"weight": 1
+                },
+            ]
+        }
+    ]
+}

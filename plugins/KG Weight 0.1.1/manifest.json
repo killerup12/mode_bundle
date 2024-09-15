@@ -1,0 +1,9 @@
+{
+  "name": "KG_Weight",
+  "version_number": "0.1.1",
+  "website_url": "https://github.com/ByTempy",
+  "description": "This modification enables to display the carrying weight in kilograms (kg) instead of pounds (lbs).",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100"
+  ]
+}

@@ -1,0 +1,137 @@
+{
+    "randomness": {
+        "type": "determinstic"
+    },
+    "replacements": [
+        {
+            "matches": "MenuManager:Menu1",
+	        "condition": {
+            "type": "config",
+            "config": "EnabledSounds:menu_theme",
+            "value": true
+	        },
+            "sounds": [
+                {
+                    "sound": "menu_theme/Menu1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "InitSceneScript:BootUp",
+	        "condition": {
+            "type": "config",
+            "config": "EnabledSounds:menu",
+            "value": true
+	        },
+            "sounds": [
+                {
+                    "sound": "menu/BootUp.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "MenuManager:BootUp2",
+	        "condition": {
+            "type": "config",
+            "config": "EnabledSounds:menu",
+            "value": true
+	        },
+            "sounds": [
+                {
+                    "sound": "menu/BootUp2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "PlayerSettingsObject:Button1",
+	        "condition": {
+            "type": "config",
+            "config": "EnabledSounds:menu",
+            "value": true
+	        },
+            "sounds": [
+                {
+                    "sound": "menu/Button1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "MenuManager:Button2",
+	        "condition": {
+            "type": "config",
+            "config": "EnabledSounds:menu",
+            "value": true
+	        },
+            "sounds": [
+                {
+                    "sound": "menu/Button2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "MenuManager:Button3",
+	        "condition": {
+            "type": "config",
+            "config": "EnabledSounds:menu",
+            "value": true
+	        },
+            "sounds": [
+                {
+                    "sound": "menu/Button3.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "MenuManager:Button4",
+	        "condition": {
+            "type": "config",
+            "config": "EnabledSounds:menu",
+            "value": true
+	        },
+            "sounds": [
+                {
+                    "sound": "menu/Button4.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "SelectAudio:ButtonPress1",
+	        "condition": {
+            "type": "config",
+            "config": "EnabledSounds:menu",
+            "value": true
+	        },
+            "sounds": [
+                {
+                    "sound": "menu/ButtonPress1.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "Audio:ButtonPress2",
+	        "condition": {
+            "type": "config",
+            "config": "EnabledSounds:menu",
+            "value": true
+	        },
+            "sounds": [
+                {
+                    "sound": "menu/ButtonPress2.ogg"
+                }
+            ]
+        },
+        {
+            "matches": "SelectAudio:HoverButton1",
+	        "condition": {
+            "type": "config",
+            "config": "EnabledSounds:menu",
+            "value": true
+	        },
+            "sounds": [
+                {
+                    "sound": "menu/HoverButton1.ogg"
+                }
+            ]
+        }
+    ]
+}
